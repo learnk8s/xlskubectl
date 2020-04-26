@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>xlskubectl</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
+</head>
+
+<body class="sans-serif">
+  <div class="mw7 center">
+    <h1 class="f2 lh-solid">xlskubectl bridge</h1>
+
+    <div class="" id="form">
+      <ol class="list ph3 pv1 bg-washed-yellow mv0 br2">
+        <li class='mv3'>
+          <label for="client-id" class="w4 dib">Client ID:</label>
+          <input id="client-id" type="text"
+            class="input-reset bn bb b--black-20 pa2 dib bg-black-05 br2 f5 mr2 measure-wide w-100">
+        </li>
+        <li class="mv3">
+          <label for="api-key" class="w4 dib">API key:</label>
+          <input id="api-key" type="text"
+            class="input-reset bn bb b--black-20 pa2 dib bg-black-05 br2 f5 mr2 measure-wide w-100">
+        </li>
+        <li class="mv3">
+          <label for="spreadsheet-id" class="w4 dib">Spreadsheet ID:</label>
+          <input id="spreadsheet-id" type="text"
+            class="input-reset bn bb b--black-20 pa2 dib bg-black-05 br2 f5 mr2 measure-wide w-100">
+        </li>
+        <li class="mt4 mb3">
+          <button id="connect_button" class="dim br1 ph3 pv2 mb2 dib white bg-dark-pink bn br1">Connect</button>
+        </li>
+      </ol>
+    </div>
+
+    <div class="dn" id="authorize">
+      <p class="f4 bg-washed-yellow pa2">Connected. You should authorize the app.</p>
+      <button id="authorize_button" class="dim br1 ph3 pv2 mb2 dib white bg-dark-pink bn br1">Authorise</button>
+    </div>
+
+    <div class="dn" id="connected">
+      <p class="f4 bg-washed-yellow pa2">Streaming updates.</p>
+      <button id="signout_button" class="dim br1 ph3 pv2 mb2 dib white bg-dark-pink bn br1">Sign Out</button>
+    </div>
+
+    <pre id="content" style="white-space: pre-wrap;"></pre>
+  </div>
+
+  <script src="gsheet.js"></script>
+  <script async defer src="https://apis.google.com/js/api.js"></script>
+</body>
+
+</html>
