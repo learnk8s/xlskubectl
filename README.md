@@ -33,4 +33,4 @@ A: Kubernetes exposes a robust API that is capable of streaming incremental upda
 
 **Q: Is this production-ready?**
 
-A: We're looking for fundings to take this to the next level. Replacing YAML with Spreadsheet has always been our mission as a company, and we will continue to do so.
+A: We're looking for fundings to take this to the next level. Replacing YAML with spreadsheets has always been our mission as a company, and we will continue to do so.
