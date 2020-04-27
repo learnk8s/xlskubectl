@@ -15,7 +15,7 @@ $ kubectl proxy --www=.
 Starting to serve on 127.0.0.1:8001
 ```
 
-Open the following URL <http://127.0.0.1:8001/static>.
+Open the following URL <http://localhost:8001/static>.
 
 The page will guide through creating the appropriate credentials to connect to Google Spreadsheet.
 
