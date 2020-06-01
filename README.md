@@ -27,7 +27,7 @@ A: The following quote best summarises this project:
 
 > They were so preoccupied with whether or not they could, they didn't stop to think if they should.
 
-**Q: Not but really, what's going on here?!**
+**Q: No but really, what's going on here?!**
 
 A: Kubernetes exposes a robust API that is capable of streaming incremental updates. Google Spreadsheet can be scripted to read and write values, so the next logical step is to connect the two (also, [credit to this person](https://www.reddit.com/r/kubernetes/comments/ftgo69/sheet_ops_managing_kubernetes_using_google/)).
 
