@@ -49,6 +49,7 @@ function initClient() {
   gapi.client
     .init({
       apiKey: apiKey.value.trim(),
+      plugin_name: "chat",
       clientId: clientId.value.trim(),
       discoveryDocs: DISCOVERY_DOCS,
       scope: SCOPES,
